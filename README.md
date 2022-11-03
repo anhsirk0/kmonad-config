@@ -8,8 +8,8 @@ It has 2 layers
  
 #### QWERTY Layer
  - The default layer
- - `ESC` is `CAPSLOCK`
- - `CAPSLOCK` is `ESC`
+ - `ESC` and `CAPSLOCK` are swapped
+ - `CTRL` and `ALT` are swapped
  - holding `CAPSLOCK` will toggle `CTRLALT` layer
 
 #### CTRLALT Layer
