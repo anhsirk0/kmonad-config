@@ -6,7 +6,7 @@ It has 2 layers
  - QWERTY
  - CTRLALT
  
-## QWERTY Layers
+#### QWERTY Layer
 the default layer
  - `ESC` is `CAPSLOCK`
  - `CAPSLOCK` is `ESC`
