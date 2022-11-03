@@ -7,7 +7,12 @@ It has 2 layers
  - CTRLALT
  
 #### QWERTY Layer
- - default layer
+ - The default layer
  - `ESC` is `CAPSLOCK`
  - `CAPSLOCK` is `ESC`
- - holding `CAPSLOCK` will activate `CTRLALT` layer
+ - holding `CAPSLOCK` will toggle `CTRLALT` layer
+
+#### CTRLALT Layer
+ - Toggled by holding `CAPSLOCK`
+ - Works as holding `CTRL` and `ALT`
+ - Example: Pressing `CAPSLOCK + A` will work as `CTRL + ALT + A`
