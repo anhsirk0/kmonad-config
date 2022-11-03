@@ -7,7 +7,7 @@ It has 2 layers
  - CTRLALT
  
 #### QWERTY Layer
-the default layer
+ - default layer
  - `ESC` is `CAPSLOCK`
  - `CAPSLOCK` is `ESC`
- - holding `CAPSLOCK` will activate `QWERTY` layer
+ - holding `CAPSLOCK` will activate `CTRLALT` layer
