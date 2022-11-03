@@ -14,5 +14,5 @@ It has 2 layers
 
 #### CTRLALT Layer
  - Toggled by holding `CAPSLOCK`
- - Works as holding `CTRL` and `ALT`
+ - Works same as holding `CTRL` and `ALT`
  - Example: Pressing `CAPSLOCK + A` will work as `CTRL + ALT + A`
