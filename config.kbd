@@ -20,7 +20,10 @@
 )
  
 (defalias
+    ;; toggle ctrlalt -> tca
     tca (tap-next esc (layer-toggle ctrlalt))
+    ;; toggle metaalt -> tma
+    tma (tap-next tab (layer-toggle metaalt))
 ;;   num  (tap-macro nlck (layer-switch numpad)) ;; Bind 'num' to numpad Layer
 ;;   def  (tap-macro nlck (layer-switch qwerty)) ;; Bind 'def' to qwerty Layer
 ;;   nm2 (layer-toggle numbers) ;; Bind 'nm2' to numbers under left hand layer for fast input
@@ -29,7 +32,7 @@
 (deflayer qwerty
   caps     f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12            prnt    del
   grv     1    2    3    4    5    6    7    8    9    0    -    =    bspc      
-  tab     q    w    e    r    t    y    u    i    o    p    [    ]    \         
+  @tma     q    w    e    r    t    y    u    i    o    p    [    ]    \         
   @tca    a    s    d    f    g    h    j    k    l    ;    '    ret
   lsft      z    x    c    v    b    n    m    ,    .    /    rsft             up
   lalt    lmet lctrl           spc            rctl  ralt                left    down    right
@@ -41,6 +44,16 @@
   tab     C-A-q  C-A-w  C-A-e  C-A-r  C-A-t  C-A-y  C-A-u  C-A-i  C-A-o  C-A-p    [    ]    \         
   esc     C-A-a  C-A-s  C-A-d  C-A-f  C-A-g  C-A-h  C-A-j  C-A-k  C-A-l  C-A-;    '    ret
   lsft    C-A-z  C-A-x  C-A-c  C-A-v  C-A-b  C-A-n  C-A-m  C-A-,  C-A-.  C-A-/    rsft    up
+  lalt    lmet   lctrl           spc            rctl  ralt                left    down    right
+ )
+
+;; Alt and ctrl are swapped, thats why metaalt is M-C
+(deflayer metaalt
+  caps     f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12            prnt    del
+  grv     1    2    3    4    5    6    7    8    9    0    -    =    bspc      
+  tab     M-C-q  M-C-w  M-C-e  M-C-r  M-C-t  M-C-y  M-C-u  M-C-i  M-C-o  M-C-p    [    ]    \         
+  esc     M-C-a  M-C-s  M-C-d  M-C-f  M-C-g  M-C-h  M-C-j  M-C-k  M-C-l  M-C-;    '    ret
+  lsft    M-C-z  M-C-x  M-C-c  M-C-v  M-C-b  M-C-n  M-C-m  M-C-,  M-C-.  M-C-/    rsft    up
   lalt    lmet   lctrl           spc            rctl  ralt                left    down    right
 )
 ;; (deflayer numpad
