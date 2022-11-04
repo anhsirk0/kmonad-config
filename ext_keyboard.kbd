@@ -19,6 +19,16 @@
   lctl    lmet lalt           spc            ralt  rctl                left    down    right
 )
 
+(defalias
+    ;; toggle ctrlalt -> tca
+    tca (tap-next esc (layer-toggle ctrlalt))
+    ;; toggle metaalt -> tma
+    tma (tap-next tab (layer-toggle metaalt))
+;;   num  (tap-macro nlck (layer-switch numpad)) ;; Bind 'num' to numpad Layer
+;;   def  (tap-macro nlck (layer-switch qwerty)) ;; Bind 'def' to qwerty Layer
+;;   nm2 (layer-toggle numbers) ;; Bind 'nm2' to numbers under left hand layer for fast input
+)
+
 (deflayer qwerty
   caps     f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12            prnt    del
   grv     1    2    3    4    5    6    7    8    9    0    -    =    bspc      
