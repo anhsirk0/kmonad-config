@@ -50,7 +50,7 @@
 ;; Alt and ctrl are swapped, thats why metaalt is M-C
 (deflayer metaalt
   caps     f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12            prnt    del
-  grv     1    2    3    4    5    6    7    8    9    0    -    =    bspc      
+  grv     M-C-1  M-C-2  M-C-3  M-C-4  M-C-5  M-C-6  M-C-7  M-C-8  M-C-9  M-C-0    -    =    bspc      
   tab     M-C-q  M-C-w  M-C-e  M-C-r  M-C-t  M-C-y  M-C-u  M-C-i  M-C-o  M-C-p    [    ]    \         
   esc     M-C-a  M-C-s  M-C-d  M-C-f  M-C-g  M-C-h  M-C-j  M-C-k  M-C-l  M-C-;    '    ret
   lsft    M-C-z  M-C-x  M-C-c  M-C-v  M-C-b  M-C-n  M-C-m  M-C-,  M-C-.  M-C-/    rsft    up
