@@ -12,7 +12,7 @@ It has 3 layers
  - `ESC` and `CAPSLOCK` are swapped
  - `CTRL` and `ALT` are swapped
  - holding `CAPSLOCK` will toggle `CTRLALT` layer
- - holding `\`` will toggle `METAALT` layer
+ - holding `` ` `` will toggle `METAALT` layer
 
 #### CTRLALT Layer
  - Toggled by holding `CAPSLOCK`
@@ -20,8 +20,8 @@ It has 3 layers
  - Example: Pressing `CAPSLOCK + A` will work as `CTRL + ALT + A`
 
 #### METAALT Layer
- - Toggled by holding `\``
+ - Toggled by holding `` ` ``
  - Works same as holding `META` and `ALT`
- - Example: Pressing `\` + A` will work as `META + ALT + A`
+ - Example: Pressing `` ` + A`` will work as `META + ALT + A`
  > since `ALT` and `CTRL` are swapped, this will work as `META + CTRL + A`
  
